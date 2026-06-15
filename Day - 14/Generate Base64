@@ -1,0 +1,2 @@
+echo -n admin | base64
+echo -n password123 | base64
