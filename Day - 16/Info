@@ -1,0 +1,9 @@
+Verify : 
+
+kubectl exec -it emptydir-pod -- sh
+
+Create file:
+
+echo hello > /data/test.txt
+
+
