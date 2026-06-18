@@ -1,0 +1,10 @@
+Verify
+kubectl exec -it hostpath-pod -- sh
+
+Create file:
+
+echo hello > /host-data/test.txt
+
+Check node:
+
+ls /tmp/k8s-data
