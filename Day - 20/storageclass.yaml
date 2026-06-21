@@ -1,0 +1,11 @@
+# For learning purposes. In managed clusters (EKS/GKE/AKS), a default StorageClass already exists.
+
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+
+metadata:
+  name: fast-storage
+
+provisioner: kubernetes.io/no-provisioner
+
+volumeBindingMode: WaitForFirstConsumer
