@@ -59,36 +59,116 @@ Each day introduces a new Kubernetes concept, starting with Pods and gradually p
 
 ```text
 .
+├── README.md
 ├── Day - 01
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 02
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 03
+│   ├── namespace.yaml
+│   └── README.md
 ├── Day - 04
+│   ├── replicaset.yaml
+│   └── README.md
 ├── Day - 05
+│   ├── deployment.yaml
+│   └── README.md
 ├── Day - 06
+│   ├── deployment.yaml
+│   └── README.md
 ├── Day - 07
+│   ├── deployment.yaml
+│   └── README.md
 ├── Day - 08
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── README.md
 ├── Day - 09
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── README.md
 ├── Day - 10
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── README.md
 ├── Day - 11
+│   ├── deployment.yaml
+│   ├── service.yaml
+│   └── README.md
 ├── Day - 12
+│   ├── configmap.yaml
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 13
+│   ├── secret.yaml
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 14
+│   ├── configmap.yaml
+│   ├── secret.yaml
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 15
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 16
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 17
+│   ├── pv.yaml
+│   └── README.md
 ├── Day - 18
+│   ├── pv.yaml
+│   ├── pvc.yaml
+│   └── README.md
 ├── Day - 19
+│   ├── pv.yaml
+│   ├── pvc.yaml
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 20
+│   ├── storageclass.yaml
+│   ├── pvc.yaml
+│   └── README.md
 ├── Day - 21
+│   ├── daemonset.yaml
+│   └── README.md
 ├── Day - 22
+│   ├── service.yaml
+│   ├── statefulset.yaml
+│   └── README.md
 ├── Day - 23
+│   ├── service.yaml
+│   ├── statefulset.yaml
+│   └── README.md
 ├── Day - 24
+│   ├── job.yaml
+│   └── README.md
 ├── Day - 25
+│   ├── cronjob.yaml
+│   └── README.md
 ├── Day - 26
+│   ├── pod.yaml
+│   └── README.md
 ├── Day - 27
+│   ├── deployment.yaml
+│   └── README.md
 ├── Day - 28
+│   ├── deployment.yaml
+│   └── README.md
 ├── Day - 29
+│   ├── pod.yaml
+│   └── README.md
 └── Day - 30
+    ├── namespace.yaml
+    ├── configmap.yaml
+    ├── secret.yaml
+    ├── pvc.yaml
+    ├── deployment.yaml
+    ├── service.yaml
+    └── README.md
 ```
 
 Every folder contains:
